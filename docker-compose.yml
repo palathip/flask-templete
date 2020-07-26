@@ -1,0 +1,20 @@
+version: '2'
+
+services:
+    folio_education_server:
+        image: folio_education_server
+        ports:
+            - "7771:7771"
+        volumes:
+            - ./:/code
+        restart: always
+        networks:
+            - backend-network
+        volumes:
+            - edu_upload:/app/uploads
+networks:
+    backend-network:
+        driver: bridge
+volumes:
+    edu_upload:
+        external: true

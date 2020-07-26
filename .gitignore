@@ -1,0 +1,7 @@
+*.pyc
+*.ftpconfig
+.idea/
+/Public
+app/Public/Job/Excel/*.xlsx
+/app/Public/Job/File/**
+app/dbConfig.py
