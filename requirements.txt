@@ -7,7 +7,7 @@ Click==7.0
 cryptography==1.7.2
 enum34==1.1.6
 Flask==1.1.1
-Flask-Cors==3.0.8
+Flask-Cors==3.0.9
 Flask-MySQL==1.4.0
 idna==2.8
 ipaddress==1.0.22
